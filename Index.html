@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Styles</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/14243a9ab9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <div class="signupFrm">
+        <form id="registration_form" class="form">
+            <h1 class="title">Get Started Absolutely Free</h1>
+            <div class="flex signup">
+                <div class="text">Signup Using</div>
+                <div class="google icon"><i class="fa-brands fa-google"></i></div>
+                <div class="fb icon"><i class="fa-brands fa-facebook-f"></i></div>
+            </div>
+            <div class="or">Or</div>
+            <div class="flex">
+                <div class="fnam">
+                    <input id="form_fname" class="namebox textbox" type="text" placeholder="First Name"><br/>
+                    <span class="error" id="fname_error"></span>
+                </div>
+                <div class="lname">
+                    <input id="form_sname" class="namebox textbox" type="text" placeholder="Last Name"><br/>
+                    <span class="error" id="sname_error"></span>
+                </div>
+            </div>
+            <div class="input">
+                <input id="form_email" class="email inputbox textbox" type="email" placeholder="Enter Email">
+                <span class="error" id="email_error"></span>
+            </div>
+            <div class="input">
+                <input id="form_password" class="inputbox textbox" type="password" placeholder="Enter Password">
+                <span class="error" id="password_error"></span>
+            </div>
+            <div class="input">
+                <input id="form_retype_password" class="cnf inputbox textbox" type="password"
+                    placeholder="Confirm Password">
+                <span class="error" id="retype_password_error"></span>
+            </div>
+            
+            <div class="promo">
+                <a href="#">Got a Promo Code?</a>
+            </div>
+            <div class="agree">
+                <input type="checkbox" name="agreement" id=" agreement"> I agree all <a href="#">Term of Service</a> &
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="button">
+                <button type="submit">SUBMIT</button>
+            </div>
+            <div class="login">Already have an account? <a href="#">Login Here</a></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
